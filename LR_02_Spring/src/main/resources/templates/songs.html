@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Songs</title>
+</head>
+<body>
+
+<form method="post" action="/songs">
+    <div>
+        <h3>Add a New Song</h3>
+
+        <div>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title">
+        </div>
+
+        <div>
+            <label for="executor">Executor:</label>
+            <input type="text" id="executor" name="executor">
+        </div>
+
+        <div>
+            <label for="album_id">Album ID:</label>
+            <input type="number" id="album_id" name="album">
+        </div>
+
+        <button type="submit">Create Song</button>
+    </div>
+</form>
+
+<h1>List of all Songs</h1>
+<ul>
+    <th:block th:each="song : ${songs}">
+        <li>
+            <span th:text="${song.getTitle()}"></span> -
+            <span th:text="${song.getExecutor()}"></span> -
+            <span th:text="${song.getAlbum().getName()}"></span>
+        </li>
+    </th:block>
+</ul>
+</body>
+</html>
