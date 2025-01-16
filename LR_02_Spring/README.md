@@ -5,10 +5,10 @@
  - Тюгаев Никита 6133
 
 ### Main page
-![image](webpages_screenshots/webpages1.png)
+![image](webpages_screenshots/webpage1.png)
 
 ### Songs
-![image](webpages_screenshots/webpages2.png)
+![image](webpages_screenshots/webpage2.png)
 
 ### Albums
-![image](webpages_screenshots/webpages3.png)
+![image](webpages_screenshots/webpage3.png)
