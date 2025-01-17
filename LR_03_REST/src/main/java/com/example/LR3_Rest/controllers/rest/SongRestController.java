@@ -8,7 +8,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/v1/books")
+@RequestMapping("/api/v1/songs")
 public class SongRestController  {
     private final SongService service;
 
