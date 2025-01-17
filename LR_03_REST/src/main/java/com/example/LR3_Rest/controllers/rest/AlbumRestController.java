@@ -15,6 +15,7 @@ public class AlbumRestController {
         this.service = service;
     }
 
+    @GetMapping
     public List<Album> getAll() {
         return service.findAll();
     }
