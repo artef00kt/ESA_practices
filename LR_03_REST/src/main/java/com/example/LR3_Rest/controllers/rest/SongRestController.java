@@ -15,6 +15,7 @@ public class SongRestController  {
        this.service = service;
     }
 
+    @GetMapping
     public List<Song> getAll() {
         return service.findAll();
     }
