@@ -7,7 +7,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/v1/libraries")
+@RequestMapping("/api/v1/albums")
 public class AlbumRestController {
     private final AlbumService service;
 

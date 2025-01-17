@@ -20,7 +20,7 @@ public class AlbumController extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setAttribute("albums", albumService.getAllAlbums());
-            request.getRequestDispatcher("albums.jsp").forward(request, response);
+            request.getRequestDispatcher("album.jsp").forward(request, response);
     }
 
     @Override
