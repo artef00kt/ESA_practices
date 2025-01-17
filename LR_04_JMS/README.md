@@ -9,3 +9,9 @@
 
 ### Отправитель
 ![image](mail_screenshots/mail2.jpg)
+
+### Таблица аудита
+![image](mail_screenshots/audit.png)
+
+### Таблица адресатов
+![image](mail_screenshots/destination.png)
