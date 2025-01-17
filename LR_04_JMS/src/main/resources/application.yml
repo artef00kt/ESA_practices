@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: LR4_JSM
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: root
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/db_for_labs
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  thymeleaf:
+    cache: false
+  artemis:
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: a.a.ivanov.111@gmail.com
+    password: ipdtoissfpvutdhq
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+app:
+  audit:
+    topic: audit.queue
